@@ -1,6 +1,5 @@
 package testCases;
 
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import helpers.Log;
 import pageObjects.BasePage;
@@ -20,15 +19,11 @@ public class Login_01 extends BasePage {
 		hp = new HomePage(driver);
 		hp.clickOnLoginButton();
 		Log.info("Clicked on the login button");
-
-	}
-
-	@Test(description="Login test")
-	public void loginTest() {
 		sp = new SignInPage(driver);
 		sp.proceedToLogin(getEMAIL(), getPASSWORD());
 		Log.endLog("Log END");
 
 	}
+
 
 }

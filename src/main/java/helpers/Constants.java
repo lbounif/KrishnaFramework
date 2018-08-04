@@ -4,7 +4,7 @@ public class Constants {
 	
 	private static String MAINURL="http://automationpractice.com/index.php";
 	private static String EMAIL="dharmakrish6@gmail.com";
-	private static String PASSWORD="123456";
+	private static String PASSWORD="12345";
 
 	public String getMAINURL() {
 		return MAINURL;
