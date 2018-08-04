@@ -12,20 +12,19 @@ public class Login_01 extends BasePage {
 	SignInPage sp;
 
 	@Test(description="navigation test")
-	public void loginTest1() {
-		Log.startLog("Started Logging");
+	public void navigateToSite() {
+		Log.startLog("Started Logging test");
 		launchBrowser();
 		driver.get(getMAINURL());
 		Log.info("Rdirected to site");
 		hp = new HomePage(driver);
 		hp.clickOnLoginButton();
 		Log.info("Clicked on the login button");
-		Assert.assertEquals("", "", "FAIL:Fail to login");
 
 	}
 
 	@Test(description="Login test")
-	public void loginTest2() {
+	public void loginTest() {
 		sp = new SignInPage(driver);
 		sp.proceedToLogin(getEMAIL(), getPASSWORD());
 		Log.endLog("Log END");

@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41558" started-at="2018-08-04T04:07:36Z" finished-at="2018-08-04T04:08:18Z">
+  <suite name="Default suite" duration-ms="41935" started-at="2018-08-04T11:40:59Z" finished-at="2018-08-04T11:41:41Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41558" started-at="2018-08-04T04:07:36Z" finished-at="2018-08-04T04:08:18Z">
+    <test name="Default test" duration-ms="41935" started-at="2018-08-04T11:40:59Z" finished-at="2018-08-04T11:41:41Z">
       <class name="testCases.Login_01">
-        <test-method status="PASS" signature="loginTest1()[pri:0, instance:testCases.Login_01@21526f6c]" name="loginTest1" duration-ms="23347" started-at="2018-08-04T04:07:36Z" description="navigation test" finished-at="2018-08-04T04:07:59Z">
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:testCases.Login_01@49f5c307]" name="loginTest1" duration-ms="24065" started-at="2018-08-04T11:41:00Z" description="navigation test" finished-at="2018-08-04T11:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest1 -->
-        <test-method status="FAIL" signature="loginTest2()[pri:0, instance:testCases.Login_01@21526f6c]" name="loginTest2" duration-ms="17906" started-at="2018-08-04T04:08:00Z" description="Login test" finished-at="2018-08-04T04:08:18Z">
+        <test-method status="FAIL" signature="loginTest2()[pri:0, instance:testCases.Login_01@49f5c307]" name="loginTest2" duration-ms="17508" started-at="2018-08-04T11:41:24Z" description="Login test" finished-at="2018-08-04T11:41:41Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.cssSelector: #my-account' (tried for 10 second(s) with 500 MILLISECONDS interval)]]>
@@ -54,10 +54,10 @@ Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable t
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.9.1', revision: '63f7b50', time: '2018-02-07T22:25:02.294Z'
-System info: host: 'Dharmas-MacBook-Air.local', ip: '100.73.17.124', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
+System info: host: 'Dharmas-MacBook-Air.local', ip: '100.72.66.73', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_151'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544337 (8c0344a12e5521..., userDataDir: /var/folders/cw/1xmpgg4n3vj...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
-Session ID: b4bb1d841693beb87db95009f322870c
+Session ID: 2f7e47f1f0b3f88efb00f606778899ab
 *** Element info: {Using=css selector, value=#my-account}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
