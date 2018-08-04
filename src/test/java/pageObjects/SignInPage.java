@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class SignInPage extends BasePage {
 
@@ -13,6 +14,8 @@ public class SignInPage extends BasePage {
 	private WebElement passwordTextBox;
 	@FindBy(css = "#SubmitLogin > span")
 	private WebElement signInButton;
+	@FindBy(css="#my-account")
+	private WebElement myaccounttext;
 
 	public SignInPage(WebDriver driver) {
 		BasePage.driver = driver;
@@ -20,10 +23,11 @@ public class SignInPage extends BasePage {
 	}
 
 	public void proceedToLogin(String email, String password) {
-		typeText(emailTextBox, "abcd@gmail.com");
+		typeText(emailTextBox, email);
 		passwordTextBox.sendKeys(password);
 		signInButton.click();
-		waitForElement(signInButton, 10);
+		waitForElement(myaccounttext, 10);
+		Assert.assertEquals(isElementDisplayed(myaccounttext),true,"FAIL:Login failed");
 	}
 
 }
