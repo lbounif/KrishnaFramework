@@ -34,9 +34,8 @@ public class BasePage extends Constants {
 		sel.selectByIndex(value);
 	}
 
-	public void isElementDisplayed(WebElement element) {
-		element.isDisplayed();
-		Reporter.log(element + " Element is displayed");
+	public boolean isElementDisplayed(WebElement element) {
+		return element.isDisplayed();
 	}
 
 	public void runJavaScript(String command) {
