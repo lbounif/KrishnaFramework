@@ -27,4 +27,4 @@ Wait for sometime to load the reports with your browser.
 
 Sample Reports here
 
-
+![sample report](https://user-images.githubusercontent.com/13097320/43676665-0e8794cc-9813-11e8-867e-adfc2851f73f.png)
