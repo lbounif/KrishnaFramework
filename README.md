@@ -2,6 +2,12 @@
 # Intorduction
 Created simple framework for the people one who wants to use for their Projects. It has integration with POM,TestNG and Allure Reports. For the Logging Log4j also integrated. 
 
+# Installation
+By default it has configured with Chrome browser with Mac Platform. 
+Download the chromedriver for your platform from [ChromeDriver](http://chromedriver.chromium.org/downloads). 
+
+Replace your chromedriver in the **/driver** directory.
+
 # Custom Function
 
 Refer the LoginPage.Java. Once you inherit the BaseClass, you can use our custom function. 
