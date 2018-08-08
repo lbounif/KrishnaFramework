@@ -1,5 +1,5 @@
 # KrishnaFramework
-# Intorduction
+# Introduction
 Created simple framework for the people one who wants to use for their Projects. It has integration with POM,TestNG and Allure Reports. For the Logging Log4j also integrated. 
 
 # Installation
