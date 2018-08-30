@@ -10,7 +10,8 @@ Replace your chromedriver in the **/driver** directory.
 
 # Custom Function
 
-Refer the LoginPage.Java. Once you inherit the BaseClass, you can use our custom function. 
+Refer the LoginPage.Java.  
+Once you inherit the BaseClass, you can use our custom function. 
 
 **click(element):**
 To click on the element
